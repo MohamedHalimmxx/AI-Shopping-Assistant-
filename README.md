@@ -30,7 +30,7 @@ User Input  →  "Find me the best wireless noise-cancelling headphones under $1
 
 🤖 Researcher Agent  →  Searches Google via Serper API, collects product listings
 🧠 Analyst Agent     →  Ranks products by price, quality & ratings
-📋 Final Output      →  Clean, structured recommendations with links
+ Final Output      →  Clean, structured recommendations with links
 ```
 
 > **Example platforms supported:** Amazon, Noon, eBay, Best Buy, AliExpress, or any custom URL the user provides.
@@ -48,7 +48,7 @@ User Input  →  "Find me the best wireless noise-cancelling headphones under $1
               ┌───────────────┼───────────────┐
               ▼                               ▼
    ┌─────────────────────┐       ┌─────────────────────────┐
-   │   🔍 Researcher      │       │     🧠 Analyst Agent     │
+   │    Researcher      │       │      Analyst Agent     │
    │       Agent          │       │                         │
    │                     │       │  - Receives raw data    │
    │  - Accepts product  │──────▶│  - Scores & ranks       │
@@ -61,7 +61,7 @@ User Input  →  "Find me the best wireless noise-cancelling headphones under $1
               │                               │
               ▼                               ▼
    ┌─────────────────────┐       ┌─────────────────────────┐
-   │   🌐 Serper API      │       │    📋 Final Output       │
+   │   🌐 Serper API      │       │     Final Output       │
    │  (Google Search)    │       │                         │
    │                     │       │  Top N product picks    │
    │  Live web results   │       │  with prices, ratings,  │
