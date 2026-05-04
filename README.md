@@ -162,8 +162,8 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # Serper API Key — https://serper.dev/
 SERPER_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# (Optional) LLM Model — defaults to gpt-4o
-OPENAI_MODEL_NAME=gpt-4o
+# (Optional) LLM Model — defaults to Llama
+llM_MODEL_NAME=llama-4-scout-17b-16e-instruct
 ```
 
 > ⚠️ **Never commit your `.env` file.** It is already included in `.gitignore`.
