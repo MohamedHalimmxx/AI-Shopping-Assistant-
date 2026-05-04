@@ -48,10 +48,10 @@ User Input  →  "Find me the best wireless noise-cancelling headphones under $1
               ┌───────────────┼───────────────┐
               ▼                               ▼
    ┌─────────────────────┐       ┌─────────────────────────┐
-   │    Researcher      │       │      Analyst Agent     │
-   │       Agent          │       │                         │
+   │     Researcher      │       │     Analyst Agent       │
+   │       Agent         │       │                         │
    │                     │       │  - Receives raw data    │
-   │  - Accepts product  │──────▶│  - Scores & ranks       │
+   │  - Accepts product  │──────▶│ - Scores & ranks       │
    │    name + websites  │       │    products             │
    │  - Queries Serper   │       │  - Filters by price,    │
    │    API (Google)     │       │    quality & ratings    │
@@ -61,7 +61,7 @@ User Input  →  "Find me the best wireless noise-cancelling headphones under $1
               │                               │
               ▼                               ▼
    ┌─────────────────────┐       ┌─────────────────────────┐
-   │   🌐 Serper API      │       │     Final Output       │
+   │   🌐 Serper API     │       │     Final Output        │
    │  (Google Search)    │       │                         │
    │                     │       │  Top N product picks    │
    │  Live web results   │       │  with prices, ratings,  │
